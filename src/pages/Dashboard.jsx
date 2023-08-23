@@ -31,7 +31,7 @@ function Dashboard() {
     try {
       const data = await axios.post(`${server_cooperative_login}/logout_user`);
       window.localStorage.removeItem("user_token");
-      navigate("/login");
+      navigate("honeylandcooperativeportal/login");
       // location.reload();
       // console.log(data);
     } catch (error) {

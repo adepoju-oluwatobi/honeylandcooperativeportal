@@ -12,7 +12,7 @@ function HomePage() {
     <div className="">
       <Header />
       <div className="bg-[url(./assets/mobile-hero.png)] md:bg-[url(./assets/Hero-Background.png)] h-[50vh] md:h-[80vh] w-[100%] bg-cover bg-no-repeat text-white ">
-        <div className='flex flex-col justify-center items-center'>
+        <div className="flex flex-col justify-center items-center">
           <p className="hero-heading pt-[10%] md:pt-[15%] lg:pt-[] w-[20ch] m-auto mb-4 md:text-3xl">
             Enrich your future with our flexible saving plan
           </p>
@@ -23,7 +23,7 @@ function HomePage() {
             plans to begin saving for the future.
           </p>
 
-          <Link to="/about">
+          <Link to="honeylandcooperativeportal/about">
             <p className="hero-btn cursor-pointer">Know More</p>
           </Link>
         </div>

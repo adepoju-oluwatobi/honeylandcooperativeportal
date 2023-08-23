@@ -25,7 +25,7 @@ const navigate = useNavigate();
       });
       window.localStorage.setItem("user_token", res.data.token)
       toast.success(`Welcome ${res.data.msg.username}`);
-      navigate("/dashboard");
+      navigate("honeylandcooperativeportal/dashboard");
       console.log(res)
 
       } catch (error) {

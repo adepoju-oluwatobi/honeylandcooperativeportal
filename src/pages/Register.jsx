@@ -37,7 +37,7 @@ function Register() {
             password: password
         })
         toast.success(`${res.data.users.name} Your account have been successfully created`);
-        navigate("/login");
+        navigate("honeylandcooperativeportal/login");
      } catch (error) {
         toast.error(error.response.data.msg);
      } 
