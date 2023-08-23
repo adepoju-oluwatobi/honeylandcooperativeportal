@@ -26,67 +26,67 @@ import AdminRegistration from "./pages/AdminRegistration";
 
 const router = createBrowserRouter([
   {
-    path: "/honeylandcooperativeportal",
+    path: "/honeylandcooperativeportal/",
     element: <App />,
   },
   {
-    path: "/",
+    path: "/honeylandcooperativeportal/",
     element: <HomePage />,
   },
   {
-    path: "/login",
+    path: "honeylandcooperativeportal/login",
     element: <Login />,
   },
   {
-    path: "/admin",
+    path: "honeylandcooperativeportal/admin",
     element: <Admin />,
   },
   {
-    path: "/register",
+    path: "honeylandcooperativeportal/register",
     element: <Register />,
   },
   {
-    path: "/about",
+    path: "honeylandcooperativeportal/about",
     element: <About />,
   },
   {
-    path: "/contact",
+    path: "honeylandcooperativeportal/contact",
     element: <Contact />,
   },
   {
-    path: "/under-construction",
+    path: "honeylandcooperativeportal/under-construction",
     element: <UnderConstruction />,
   },
   {
-    path: "/dashboard",
+    path: "honeylandcooperativeportal/dashboard",
     element: <Dashboard />,
   },
   {
-    path: "/admin-dashboard",
+    path: "honeylandcooperativeportal/admin-dashboard",
     element: <AdminDashboard />,
   },
   {
-    path: "/loan-form",
+    path: "honeylandcooperativeportal/loan-form",
     element: <LoanForm />,
   },
   {
-    path: "/update/:id",
+    path: "honeylandcooperativeportal/update/:id",
     element: <EditUser />,
   },
   {
-    path: "/create",
+    path: "honeylandcooperativeportal/create",
     element: <Add />,
   },
   {
-    path: "/FAQ",
+    path: "honeylandcooperativeportal/FAQ",
     element: <FAQ />,
   },
   {
-    path: "/bye-law",
+    path: "honeylandcooperativeportal/bye-law",
     element: <ByeLaw />,
   },
   {
-    path: "/admin-registration",
+    path: "honeylandcooperativeportal/admin-registration",
     element: <AdminRegistration />,
   },
 ]);
