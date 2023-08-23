@@ -26,7 +26,7 @@ import AdminRegistration from "./pages/AdminRegistration";
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/honeylandcooperativeportal",
     element: <App />,
   },
   {
