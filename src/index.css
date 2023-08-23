@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .container{
+        @apply p-2
+    }
+    .primary-btn{
+        @apply bg-green-600 p-4 text-white text-xs md:text-sm lg:text-base w-[100px] rounded-lg
+    }
+    .primary-btn:hover{
+        @apply bg-green-900
+    }
+
+    .secondary-btn{
+        @apply bg-blue-500 p-4 text-white text-xs md:text-sm lg:text-base w-[100px] rounded-lg
+    }
+    .hero-heading{
+        @apply font-bold text-2xl md:text-3xl lg:w-[30ch] text-center
+    }
+    .hero-desc{
+        @apply text-[10px] md:text-xs text-center w-[50ch] m-auto
+    }
+    .hero-btn{
+        @apply text-xs md:text-sm bg-[black] py-2 px-6 md:py-2 hover:bg-slate-800 duration-300 rounded-lg w-fit m-auto
+    }
+    input{
+        @apply bg-opacity-50 border p-2 mb-4 rounded-lg w-fit m-auto
+    }
+    .heading{
+        @apply text-white font-bold text-2xl md:text-4xl mb-1
+    }
+    form{
+        @apply w-[90%] md:w-[425px] bg-black bg-opacity-50 rounded-lg p-8 h-fit m-auto
+    }
+    .services-img{
+        @apply w-[280px]  h-[200px]  m-auto rounded-lg shadow-black
+    }
+    .service-tab-title
+    {
+        @apply text-sm px-4 py-2 text-center md:w-[150px]
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .s-full{
+        box-shadow: 0px 0px 8px 0px;
+        border: none;
+    }
+    
+}

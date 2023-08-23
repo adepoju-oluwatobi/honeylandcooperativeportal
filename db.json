@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "",
+      "email": "",
+      "address": "",
+      "PhoneNumber": "",
+      "nextOfKin": "",
+      "password": "",
+      "monthlySavings": "",
+      "loanAmount": "",
+      "loanBalance": "",
+      "monthlyDeduction": "",
+      "availableBal": "",
+      "id": ""
+    },
+    {
+      "name": "Adepoju Oluwatobi",
+      "monthlySavings": "20,000",
+      "loanAmount": "150,000",
+      "loanBalance": "137,500",
+      "monthlyDeduction": "12,500",
+      "availableBalance": "70,000",
+      "id": "oGznDs3"
+    },
+    {
+      "name": "Adepoju Anu",
+      "email": "anu@gmail.com",
+      "address": "11, mutiue strt, mosan",
+      "PhoneNumber": "",
+      "nextOfKin": "Oluwatobi",
+      "password": "mofolorunsho24$",
+      "monthlySavings": "20,000",
+      "loanAmount": "",
+      "loanBalance": "",
+      "monthlyDeduction": "",
+      "availableBalance": "",
+      "id": "6Ikt07O"
+    }
+  ]
+}
