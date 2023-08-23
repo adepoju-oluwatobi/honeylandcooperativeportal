@@ -29,7 +29,6 @@ const router = createBrowserRouter([
     path: "/honeylandcooperativeportal/",
     element: <App />,
   },
-  children: [
   {
     path: "/honeylandcooperativeportal/home",
     element: <HomePage />,
@@ -90,7 +89,6 @@ const router = createBrowserRouter([
     path: "honeylandcooperativeportal/admin-registration",
     element: <AdminRegistration />,
   },
-  ],
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
