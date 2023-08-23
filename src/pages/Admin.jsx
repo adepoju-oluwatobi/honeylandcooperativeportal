@@ -30,7 +30,7 @@ function Admin() {
       toast.success(`Welcome ${res.data.users.name}`);
       window.localStorage.setItem("admin_token", res.data.token)
       // Navigate to the admin dashboard
-      navigate("/admin-dashboard");
+      navigate("honeylandcooperativeportal/admin-dashboard");
     } catch (error) {
       // Display an alert if there's an error
       alert(error.message);
@@ -74,7 +74,7 @@ function Admin() {
             </p>
             <p className="text-white">
               Login as{" "}
-              <Link className="text-blue-500" to="/login">
+              <Link className="text-blue-500" to="honeylandcooperativeportal/login">
                 Member
               </Link>
             </p>
